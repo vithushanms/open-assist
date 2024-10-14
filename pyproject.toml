@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "open-assist"
+version = "1.0.0"
+description = "An open source ai voice assistant"
+authors = ["vithushan sylvester"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+livekit-agents = ">=0.8.7"
+livekit-plugins-openai = ">=0.8.1"
+livekit-plugins-silero = ">=0.6.4"
+python-dotenv = ">=1.0,<2.0"
+api = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
